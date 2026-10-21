@@ -30,7 +30,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Running sample build..."
-                    echo "Repository validation completed."
+                    echo "Repository validation completed - version 2."
                     echo "Build number: $BUILD_NUMBER"
                 '''
             }
